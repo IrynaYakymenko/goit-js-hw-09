@@ -1,0 +1,51 @@
+input, button,textarea {
+    border: none;
+    outline: none;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 408px;
+    padding: 40px;
+    margin: 0 auto;
+    box-shadow: 0 10px 10px 0 #cccccc;
+  }
+  
+  .email {
+    height: 40px;
+    width: 360px;
+    padding: 15px;
+    border: 1px solid #303030;
+  }
+  
+  .message {
+    height: 80px;
+    width: 360px;
+    padding: 15px;
+    border: 1px solid #303030;
+    resize: none;
+  }
+  
+  .submit {
+    padding: 10px 20px;
+    background-color: #4E75FF;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    transition: transform 250ms linear;
+  }
+  
+  .submit:hover,
+  .submit:focus {
+    background-color: #6C8CFF;
+    transform: scale(1.05);
+  }
+
+  .message:focus,
+  .email:focus {
+    border: 1px solid #808080;
+  }
